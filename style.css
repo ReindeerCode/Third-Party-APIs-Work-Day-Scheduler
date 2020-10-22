@@ -13,6 +13,10 @@ textarea {
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .jumbotron {
@@ -61,13 +65,29 @@ textarea {
 
 .saveBtn {
   border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
   background-color: #06aed5;
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn-i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.clearBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #d51706f2;
+  color: white;
+}
+.clearBtn-i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.topPad {
+  padding-top: 30px;
 }

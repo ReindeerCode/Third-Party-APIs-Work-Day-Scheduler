@@ -7,8 +7,8 @@ Deployed Website -> https://reindeercode.github.io/Third-Party-APIs-Work-Day-Sch
 Used the following site for verification.
 -> https://validator.w3.org/nu/
 
-![code refactor demo](./assets/PLACEHOLDER.png)
-![code refactor demo](./assets/PLACEHOLDER.png)
+![code refactor demo](./Assets/PLACEHOLDER.png)
+![code refactor demo](./Assets/PLACEHOLDER.png)
 
 ## Your Task
 

@@ -16,11 +16,11 @@ let m = moment()
 
 //table 
     // three columns
-        // first column shows hours of day
-        //second column for user notes
+        // first column shows hours of day - done
+        //second column for user notes - created
             // notes saved even when browser is refreshed
-            // btn to clear notes
             // past hours show grey
             //current hour shows light blue
             //future hours show light green
-        //third column is clear btn for second column
+        //save btn - created, need to make functional
+        //clear btn - created, need to make functional
