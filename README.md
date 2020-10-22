@@ -1,6 +1,6 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-See homework description below.
+See homework description below. I collaborated with Danielle May, Eddie Phi, Brenda Burns, Shannon Quinn, Michael Jones, and Sarah Manter on this assignment.
 
 Deployed Website -> https://reindeercode.github.io/Third-Party-APIs-Work-Day-Scheduler/
 
