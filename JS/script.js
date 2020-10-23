@@ -23,4 +23,4 @@ let m = moment()
             //current hour shows light blue
             //future hours show light green
         //save btn - created, need to make functional
-        //clear btn - created, need to make functional
+        //clear btn - created, need to make functional - use .val with an empty sting
