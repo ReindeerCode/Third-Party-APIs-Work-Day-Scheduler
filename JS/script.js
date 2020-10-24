@@ -41,7 +41,11 @@
     });
 
 //Save Btns
-    
+    let $textNote = $("#9AMText")
+    const $storage = $("#9AMStorage")
+    const div = $("9AMText")
+    div.textContent = $textNote
+    Storage.textContent = 
 
 
 
