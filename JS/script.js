@@ -1,18 +1,61 @@
 //Collaborated with Danielle May, Eddie Phi, Brenda Burns, Shannon Quinn, Michael Jones, Sarah Manter
 
-// old notes will be indented three times
-        // let day = document.getElementById("currentDay")
-//global variables
-let m = moment()
-        // //setInterval(function(){ alert("Hello"); }, 3000);
-
-        // day.textContent = m.format("dddd, MMM Do, h:mm:ss a").toString()
-// date and time
+//Time
     let update = function() {
         document.getElementById("currentDay")
         .innerHTML = moment().format('dddd, MMM Do, h:mm:ss a');
     }
     setInterval(update, 1000);
+
+//Clear Btns
+    $("#9AMClearBTN").click(function() {
+        $("#9AMText").val('');
+    });
+
+    $("#10AMClearBTN").click(function() {
+        $("#10AMText").val('');
+    });
+
+    $("#11AMClearBTN").click(function() {
+        $("#11AMText").val('');
+    });
+
+    $("#12PMClearBTN").click(function() {
+        $("#12PMText").val('');
+    });
+
+    $("#1PMClearBTN").click(function() {
+        $("#1PMText").val('');
+    });
+
+    $("#2PMClearBTN").click(function() {
+        $("#2PMText").val('');
+    });
+
+    $("#3PMClearBTN").click(function() {
+        $("#3PMText").val('');
+    });
+
+    $("#4PMClearBTN").click(function() {
+        $("#4PMText").val('');
+    });
+
+//Save Btns
+    
+
+
+
+
+// Clear btn
+    // create clear button class
+        // put on every clear button in html
+        // assign each clear button and text area values
+            // the value assigned should be the same per row
+    // use JQ to add on click event listener for clear button class
+        // on click fun function with if statement
+            // make sure to inculde the code to stop the on click from bubbling to other buttons (event.stopPropagation())
+        // if values match then replace text with placeholder="Type Notes Here"
+            // you may need to add a new text box tag with empty sting in it, maybe add it with all the same things as the current and remove the current
 
 //table 
     // three columns
