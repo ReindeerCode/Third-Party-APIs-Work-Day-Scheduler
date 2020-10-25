@@ -2,13 +2,15 @@
 
 See homework description below. I collaborated with Danielle May, Eddie Phi, Brenda Burns, Shannon Quinn, Michael Jones, and Sarah Manter on this assignment.
 
+-> Note: I was unable to get the color-coding or local storage to work properly.
+
 Deployed Website -> https://reindeercode.github.io/Third-Party-APIs-Work-Day-Scheduler/
 
 Used the following site for verification.
 -> https://validator.w3.org/nu/
 
-![code refactor demo](./Assets/PLACEHOLDER.png)
-![code refactor demo](./Assets/PLACEHOLDER.png)
+![code refactor demo](./Assets/timeScreenShot.png)
+![code refactor demo](./Assets/notesInTextBoxAndButtons.png)
 
 ## Your Task
 

@@ -40,34 +40,54 @@
         $("#4PMText").val('');
     });
 
+
 //Save Btns
-    let $textNote = $("#9AMText")
-    const $storage = $("#9AMStorage")
-    const div = $("9AMText")
-    div.textContent = $textNote
-    Storage.textContent = 
+
+$("#9AMSaveBTN").click(function() {
+    let val = $("#9AMText").val();
+    localStorage.setItem("9notesText", val);
+
+    let storedNotes = localStorage.getItem("9notesText", val);
+
+    if (storedNotes !== null) {
+        val.textContent = storedNotes;
+        console.log(val)
+    }
+});
 
 
 
 
-// Clear btn
-    // create clear button class
-        // put on every clear button in html
-        // assign each clear button and text area values
-            // the value assigned should be the same per row
-    // use JQ to add on click event listener for clear button class
-        // on click fun function with if statement
-            // make sure to inculde the code to stop the on click from bubbling to other buttons (event.stopPropagation())
-        // if values match then replace text with placeholder="Type Notes Here"
-            // you may need to add a new text box tag with empty sting in it, maybe add it with all the same things as the current and remove the current
 
-//table 
-    // three columns
-        // first column shows hours of day - done
-        //second column for user notes - created
-            // notes saved even when browser is refreshed
-            // past hours show grey
-            //current hour shows light blue
-            //future hours show light green
-        //save btn - created, need to make functional
-        //clear btn - created, need to make functional - use .val with an empty sting
+//Time Color Changes - cannot get this to work
+
+    // let currentTime = parseInt(moment().format("H"))
+    // //console.log(currentTime)
+
+    // function timeColor(element) {
+    //     let hourVal = document.getElementById("#9amHour")
+    //     console.log(hourVal)
+    // }
+
+    // function timeColor(element) {
+    //     const timeVal = parseInt(element.attr("id"));
+    //     console.log(timeVal)
+    //     if (timeVal < currentTime) {
+    //         element.css("backgroundColor", ".past")
+    //     } else if (timeVal > currentTime) {
+    //         element.css("backgroundColor", ".future")
+    //     }else {
+    //         element.css("backgroundColor", ".hour")
+    //     }
+    // }
+
+    // function checkTime(){
+    //     $(`.list-group-horizontal`).each(function () {
+    //         bgColor($(this))
+    //     })
+    // }
+
+    // checkTime();
+    // setInterval(checkTime, 50000)
+
+
