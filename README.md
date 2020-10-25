@@ -2,6 +2,8 @@
 
 See homework description below. I collaborated with Danielle May, Eddie Phi, Brenda Burns, Shannon Quinn, Michael Jones, and Sarah Manter on this assignment.
 
+-> Note: Clear buttons works when I open in default browser, which is Chrome, but does not work when I open through GitHub Website link. Also, when I copy the GitHub link from GitHub or from the Deployed Website link below in ReadMe into FireFox the Clear buttons work fine.
+
 -> Note: I was unable to get the color-coding or local storage to work properly.
 
 Deployed Website -> https://reindeercode.github.io/Third-Party-APIs-Work-Day-Scheduler/
