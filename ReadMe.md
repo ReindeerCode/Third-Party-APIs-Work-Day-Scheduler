@@ -1,18 +1,19 @@
 # Project: Third-Party APIs: Work Day Scheduler
 
-  Deployable Link - > 
+  Deployable Link - > https://reindeercode.github.io/Third-Party-APIs-Work-Day-Scheduler/
 
-  Video Walk through Link -> 
 
 ## Table of Contents: 
-- [Name](#name)
-- [License](#license)
-- [Description](#description)
-- [Installation Instructions](#installationInstructions)
-- [Test](#test)
-- [GitHub](#gitHub)
-- [Email](#email)
-- [Contributors](#contributors)
+- [Project: Third-Party APIs: Work Day Scheduler](#project-third-party-apis-work-day-scheduler)
+  - [Table of Contents:](#table-of-contents)
+  - [License:](#license)
+  - [Description:](#description)
+  - [Installation Instructions:](#installation-instructions)
+  - [Test Command:](#test-command)
+  - [Github:](#github)
+  - [My Email Address:](#my-email-address)
+  - [Other Contributors:](#other-contributors)
+  - [Images:](#images)
 
 ## License:
 [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -37,8 +38,6 @@ If you have any questions please feel free to email me at ReindeerCode@gmail.com
 Danielle May (dmaysteinman), Eddie Phi (EddiePhi), Brenda Burns (GitHub Unknown), Shannon Quinn(shannonquinn91), Michael Jones (mdjonestwo), Sarah Manter (smanter82)
 
 ## Images:
-![Project Screenshot](./imagePathHere.png)
+![Project Screenshot](./Assets/timeScreenShot.png)
+![Project Screenshot](./Assets/notesInTextBoxAndButtons.png)
 
-![Project Screenshot](./imagePathHere.png)
-
-![Project Screenshot](./imagePathHere.png)
