@@ -10,8 +10,8 @@ setInterval(update, 1000);
 
 //Clear Btns
 $("#9AMClearBTN").click(function () {
-  $("#9AMText").val("");
-  localStorage.clear("#9AMText");
+  $("#9").val("");
+  localStorage.clear("#9");
 });
 
 $("#10AMClearBTN").click(function () {
