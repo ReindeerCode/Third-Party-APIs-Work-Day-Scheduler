@@ -45,29 +45,26 @@ $("#4PMClearBTN").click(function () {
 //Save Btns
 
 $(document).ready(function () {
-  // display previous stored note, if set
-  var prevText = localStorage.getItem("Saved");
-  if (prevText !== null) {
-    $(".textarea").val(localStorage.getItem("Saved"));
+  let timeSlots = [9, 10, 11, 12, 13, 14, 15, 16];
+  function renderPlans() {
+    for (let i = 0; i <= timeSlots.length; i++) {
+      $("#" + timeSlots[i]).val(localStorage.getItem(timeSlots[i]));
+    }
   }
+  renderPlans();
 
   $(".saveBtn").click(function () {
-    let newText = $(".textarea").val();
-    if (typeof Storage !== "undefined") {
-      // Store
-      localStorage.setItem("Saved", newText);
+    let dataHour = $(this).attr("data-hour");
+    let inputField = $("#" + dataHour).val();
 
-      // Retrieve
-      $(".textarea").val(localStorage.getItem("Saved"));
-    } else {
-      $(".textarea").val("Sorry, your browser does not support Web Storage...");
-    }
+    localStorage.setItem(dataHour, inputField);
+    console.log(inputField);
   });
 });
 
 // Change color based on time
 const rows = $(".row");
-let currentHour = parseInt(moment().format("h"));
+let currentHour = parseInt(moment().hours());
 
 Array.from(rows).forEach((row) => {
   let rowIdString = row.id,
@@ -75,16 +72,17 @@ Array.from(rows).forEach((row) => {
   if (rowIdString) {
     rowHour = parseInt(rowIdString);
   }
+  if (rowHour < 8) {
+    rowHour += 12;
+  }
   if (rowHour) {
     // Compares row id to current hour and sets color accordingly
     if (currentHour === rowHour) {
       setColor(row, "lightgreen");
-    } else if (currentHour < rowHour && currentHour > rowHour - 6) {
+    } else if (currentHour < rowHour) {
       setColor(row, "lightgrey");
-    } else if (currentHour > rowHour && currentHour < rowHour + 6) {
-      setColor(row, "lightblue");
-    } else {
-      setColor(row, "white");
+    } else if (currentHour > rowHour) {
+      setColor(row, "grey");
     }
   }
 });
