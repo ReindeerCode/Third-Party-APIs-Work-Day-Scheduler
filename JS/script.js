@@ -11,35 +11,42 @@ setInterval(update, 1000);
 //Clear Btns
 $("#9AMClearBTN").click(function () {
   $("#9").val("");
-  localStorage.clear("#9");
+  localStorage.setItem(9, "");
 });
 
 $("#10AMClearBTN").click(function () {
-  $("#10AMText").val("");
+  $("#10").val("");
+  localStorage.setItem(10, "");
 });
 
 $("#11AMClearBTN").click(function () {
-  $("#11AMText").val("");
+  $("#11").val("");
+  localStorage.setItem(11, "");
 });
 
 $("#12PMClearBTN").click(function () {
-  $("#12PMText").val("");
+  $("#12").val("");
+  localStorage.setItem(12, "");
 });
 
 $("#1PMClearBTN").click(function () {
-  $("#1PMText").val("");
+  $("#13").val("");
+  localStorage.setItem(13, "");
 });
 
 $("#2PMClearBTN").click(function () {
-  $("#2PMText").val("");
+  $("#14").val("");
+  localStorage.setItem(14, "");
 });
 
 $("#3PMClearBTN").click(function () {
-  $("#3PMText").val("");
+  $("#15").val("");
+  localStorage.setItem(15, "");
 });
 
 $("#4PMClearBTN").click(function () {
-  $("#4PMText").val("");
+  $("#16").val("");
+  localStorage.setItem(16, "");
 });
 
 //Save Btns
